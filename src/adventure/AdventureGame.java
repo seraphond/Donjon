@@ -1,6 +1,7 @@
 package adventure;
 
 import adventure.characters.Player;
+import adventure.room.Room;
 
 public class AdventureGame {
 	private Room currentRoom;
@@ -11,11 +12,11 @@ public class AdventureGame {
 		
 	}
 	
-	public currentRoom(){
+	public Room getCurrentRoom(){
 		return this.currentRoom;
 	}
 	
-	public getPlayer(){
+	public Player getPlayer(){
 		return this.player;
 	}
 	

@@ -30,7 +30,10 @@ public abstract class Personnage {
 	}
 	public void attack(Personnage perso){
 		perso.pv=perso.pv-this.force;
-		this.pv=this.pv-perso.force;
+		if(perso.pv>0){
+			this.pv=this.pv-perso.force;
+		}
+		
 	}
 	public abstract void die();
 }

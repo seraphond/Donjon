@@ -12,6 +12,10 @@ public class Player extends Personnage {
 		this.force=fo;
 		this.po=po;
 	}
+	
+	public void act(){
+		
+	}
 
 	public void die() {
 		
